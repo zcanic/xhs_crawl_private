@@ -1,0 +1,276 @@
+{
+  "status": "design_not_executed",
+  "scope": "兰州马拉松探索试验，年份待赛事核验；兰州新区单独记为另一赛事",
+  "queries": [
+    {
+      "id": "B1",
+      "arm": "baseline",
+      "query": "兰州马拉松",
+      "anchor": "兰州马拉松",
+      "facet": null,
+      "term": null,
+      "order": "default"
+    },
+    {
+      "id": "B2",
+      "arm": "baseline",
+      "query": "兰马",
+      "anchor": "兰马",
+      "facet": null,
+      "term": null,
+      "order": "default"
+    },
+    {
+      "id": "Q01",
+      "arm": "crossed",
+      "query": "兰州马拉松 配速",
+      "anchor": "兰州马拉松",
+      "facet": "竞技",
+      "term": "配速",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q02",
+      "arm": "crossed",
+      "query": "兰州马拉松 PB",
+      "anchor": "兰州马拉松",
+      "facet": "竞技",
+      "term": "PB",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q03",
+      "arm": "crossed",
+      "query": "兰州马拉松 训练",
+      "anchor": "兰州马拉松",
+      "facet": "竞技",
+      "term": "训练",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q04",
+      "arm": "crossed",
+      "query": "兰州马拉松 领物",
+      "anchor": "兰州马拉松",
+      "facet": "参赛事务",
+      "term": "领物",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q05",
+      "arm": "crossed",
+      "query": "兰州马拉松 住宿",
+      "anchor": "兰州马拉松",
+      "facet": "参赛事务",
+      "term": "住宿",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q06",
+      "arm": "crossed",
+      "query": "兰州马拉松 交通",
+      "anchor": "兰州马拉松",
+      "facet": "参赛事务",
+      "term": "交通",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q07",
+      "arm": "crossed",
+      "query": "兰州马拉松 美食",
+      "anchor": "兰州马拉松",
+      "facet": "目的地体验",
+      "term": "美食",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q08",
+      "arm": "crossed",
+      "query": "兰州马拉松 景点",
+      "anchor": "兰州马拉松",
+      "facet": "目的地体验",
+      "term": "景点",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q09",
+      "arm": "crossed",
+      "query": "兰州马拉松 一日游",
+      "anchor": "兰州马拉松",
+      "facet": "目的地体验",
+      "term": "一日游",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q10",
+      "arm": "crossed",
+      "query": "兰马 配速",
+      "anchor": "兰马",
+      "facet": "竞技",
+      "term": "配速",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q11",
+      "arm": "crossed",
+      "query": "兰马 PB",
+      "anchor": "兰马",
+      "facet": "竞技",
+      "term": "PB",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q12",
+      "arm": "crossed",
+      "query": "兰马 训练",
+      "anchor": "兰马",
+      "facet": "竞技",
+      "term": "训练",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q13",
+      "arm": "crossed",
+      "query": "兰马 领物",
+      "anchor": "兰马",
+      "facet": "参赛事务",
+      "term": "领物",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q14",
+      "arm": "crossed",
+      "query": "兰马 住宿",
+      "anchor": "兰马",
+      "facet": "参赛事务",
+      "term": "住宿",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q15",
+      "arm": "crossed",
+      "query": "兰马 交通",
+      "anchor": "兰马",
+      "facet": "参赛事务",
+      "term": "交通",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q16",
+      "arm": "crossed",
+      "query": "兰马 美食",
+      "anchor": "兰马",
+      "facet": "目的地体验",
+      "term": "美食",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q17",
+      "arm": "crossed",
+      "query": "兰马 景点",
+      "anchor": "兰马",
+      "facet": "目的地体验",
+      "term": "景点",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    },
+    {
+      "id": "Q18",
+      "arm": "crossed",
+      "query": "兰马 一日游",
+      "anchor": "兰马",
+      "facet": "目的地体验",
+      "term": "一日游",
+      "orders": [
+        "default",
+        "latest"
+      ],
+      "pages_each": 2
+    }
+  ],
+  "noise_controls": [
+    "兰州新区马拉松",
+    "马拉松 配速",
+    "马拉松 美食"
+  ],
+  "bfs": {
+    "max_depth": 2,
+    "new_tags_per_level": 3,
+    "allow_frontier": "仅从逐条人工判为目标赛事相关的帖子中发现标签；第二层须在初始种子标签集合外",
+    "generic_campaign_tags": "跑了就友、起跑就是马拉松等仅作噪声对照，不进入主扩展",
+    "provenance": [
+      "parent_note_id",
+      "parent_query_id",
+      "tag_id_if_available",
+      "tag_name",
+      "depth"
+    ]
+  }
+}

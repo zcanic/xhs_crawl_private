@@ -1,0 +1,16 @@
+[
+  {
+    "note_id": "6adf75c70000000002008323",
+    "search_card_title": "成马，你对得起你的口碑吗？",
+    "api_attempts": 2,
+    "api_code": -510001,
+    "api_message": "当前内容无法展示",
+    "api_checked_at": "2026-10-29T14:24:43+00:00",
+    "browser_check": "通过正常网页搜索原标题，首屏结果未找到同一标题；再打开本轮保存的带原始xsec_token链接，网页显示‘你访问的页面不见了’并提示返回首页。",
+    "conclusion": "当前接口及原链接均无法取得正文；无法确定删除、权限或其他平台原因。",
+    "body_obtained": false,
+    "body_read_complete": false,
+    "annotation": null,
+    "handling": "保留缺失记录，不用搜索卡片标题替代全文做语义标注。"
+  }
+]

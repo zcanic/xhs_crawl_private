@@ -1,0 +1,44 @@
+{
+  "note_id": "6a127a3a000000000701015a",
+  "reading_id": "C-106",
+  "expected": 4,
+  "images": [
+    {
+      "ordinal": 1,
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202610292054/3f17ee17653b03bd5976bfb432a45d9c/1040g2sg320hnl8ol68705pnfgu7nc3ddo3neicg!nd_dft_wlteh_webp_3",
+      "path": "/home/zcanic/文件/xhs_crawl_try/Spider_XHS/data/lanzhou_coverage/20261029T113955Z/detail_completion/media/6a127a3a000000000701015a/image_01.webp",
+      "reviewed": false,
+      "status": "saved",
+      "bytes": 79032,
+      "content_type": "image/webp"
+    },
+    {
+      "ordinal": 2,
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202610292054/979394210a8dd1e052fb937977ed2b41/1040g2sg320hnl8ol687g5pnfgu7nc3ddglrjueg!nd_dft_wlteh_webp_3",
+      "path": "/home/zcanic/文件/xhs_crawl_try/Spider_XHS/data/lanzhou_coverage/20261029T113955Z/detail_completion/media/6a127a3a000000000701015a/image_02.webp",
+      "reviewed": false,
+      "status": "saved",
+      "bytes": 157896,
+      "content_type": "image/webp"
+    },
+    {
+      "ordinal": 3,
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202610292054/7d9218e38feffc9e5277c56aa8e41dde/1040g2sg320hnl8ol68805pnfgu7nc3dd7g8gn1o!nd_dft_wlteh_webp_3",
+      "path": "/home/zcanic/文件/xhs_crawl_try/Spider_XHS/data/lanzhou_coverage/20261029T113955Z/detail_completion/media/6a127a3a000000000701015a/image_03.webp",
+      "reviewed": false,
+      "status": "saved",
+      "bytes": 97450,
+      "content_type": "image/webp"
+    },
+    {
+      "ordinal": 4,
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202610292054/65f8718e18ad68d37589f4e9d7b74f69/1040g2sg320hnl8ol688g5pnfgu7nc3ddr2jing0!nd_dft_wlteh_webp_3",
+      "path": "/home/zcanic/文件/xhs_crawl_try/Spider_XHS/data/lanzhou_coverage/20261029T113955Z/detail_completion/media/6a127a3a000000000701015a/image_04.webp",
+      "reviewed": false,
+      "status": "saved",
+      "bytes": 52940,
+      "content_type": "image/webp"
+    }
+  ],
+  "updated_at": "2026-10-29T14:07:38.353282+00:00"
+}

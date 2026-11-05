@@ -1,0 +1,23 @@
+{
+  "target_count": 551,
+  "valid_detail_count": 550,
+  "text_sources": {
+    "detail_api": 547,
+    "browser_visible_dom": 3
+  },
+  "unavailable_ids": [
+    "6adf75c70000000002008323"
+  ],
+  "nonempty_fields": {
+    "title": 479,
+    "body": 543,
+    "author_id": 547,
+    "published_at": 547,
+    "tags": 497
+  },
+  "types": {
+    "normal": 366,
+    "video": 184
+  },
+  "scope": "frozen candidate union; text-only requested scope; media and comments not fully verified"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "blocked",
+  "created_at": "20261029T071957399757Z",
+  "queries": [
+    "兰州马拉松",
+    "#兰州马拉松",
+    "兰马"
+  ],
+  "pages_per_query_sort": 2,
+  "pages": [],
+  "detail_failures": [],
+  "blocking_reason": "无法解析域名 www.xiaohongshu.com，尚未发送采集请求",
+  "error_type": "RuntimeError",
+  "details": [],
+  "field_missing_counts": {
+    "title": 0,
+    "description": 0,
+    "author_name": 0,
+    "author_id": 0,
+    "published_at_raw": 0,
+    "liked_count": 0,
+    "collected_count": 0,
+    "comment_count": 0,
+    "share_count": 0,
+    "tags": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-29T13:40:39+00:00",
+  "login_check": {
+    "success": true,
+    "code": 0,
+    "message": "成功",
+    "user_id_present": true
+  },
+  "interrupted_note_check": {
+    "note_id": "6ab63b3a0000000014038217",
+    "success": true,
+    "code": 0,
+    "message": "成功",
+    "matching_detail": true,
+    "data_keys": [
+      "cursor_score",
+      "items",
+      "current_time"
+    ]
+  },
+  "comparison_type": "interrupted_note"
+}

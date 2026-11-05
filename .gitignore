@@ -51,3 +51,6 @@ _live_session.json
 /_scratch/
 
 creator_cookie.json
+
+# local media tooling venv
+.media-venv/

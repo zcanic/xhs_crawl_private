@@ -1,0 +1,32 @@
+[
+  {
+    "strategy": "baseline",
+    "candidates": 132,
+    "read": 58,
+    "target_related": 26,
+    "identity_uncertain": 3,
+    "unread": 74,
+    "minimum_target_fraction": 0.19696969696969696,
+    "maximum_target_fraction": 0.7803030303030303
+  },
+  {
+    "strategy": "crossed",
+    "candidates": 202,
+    "read": 140,
+    "target_related": 109,
+    "identity_uncertain": 1,
+    "unread": 62,
+    "minimum_target_fraction": 0.5396039603960396,
+    "maximum_target_fraction": 0.8514851485148515
+  },
+  {
+    "strategy": "bfs",
+    "candidates": 341,
+    "read": 211,
+    "target_related": 162,
+    "identity_uncertain": 10,
+    "unread": 130,
+    "minimum_target_fraction": 0.4750733137829912,
+    "maximum_target_fraction": 0.8856304985337243
+  }
+]

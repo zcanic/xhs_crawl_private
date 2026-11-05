@@ -1,0 +1,17 @@
+{
+  "note_id": "6a128af70000000036030633",
+  "reading_id": "C-111",
+  "expected": 1,
+  "images": [
+    {
+      "ordinal": 1,
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202610292054/3ff72ea1f4f30be27dd0fbcbb37b7020/notes_pre_post/1040g3k8320hpltj6m2dg5puc5kh3lja36rm8328!nd_dft_wlteh_webp_3",
+      "path": "/home/zcanic/文件/xhs_crawl_try/Spider_XHS/data/lanzhou_coverage/20261029T113955Z/detail_completion/media/6a128af70000000036030633/image_01.webp",
+      "reviewed": false,
+      "status": "saved",
+      "bytes": 190974,
+      "content_type": "image/webp"
+    }
+  ],
+  "updated_at": "2026-10-29T14:08:56.059306+00:00"
+}

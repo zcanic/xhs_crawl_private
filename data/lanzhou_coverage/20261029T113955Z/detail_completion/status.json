@@ -1,0 +1,28 @@
+{
+  "scope": "frozen 551 candidate IDs; not platform-wide exhaustive search",
+  "total": 551,
+  "started_at": "2026-10-29T13:42:27+00:00",
+  "pacing": {
+    "interval_seconds": 15.0,
+    "batch_size": 20,
+    "batch_pause_seconds": 180.0
+  },
+  "state": "finished_with_unavailable",
+  "counts": {
+    "browser_text": 3,
+    "failed": 1,
+    "success": 547
+  },
+  "updated_at": "2026-10-29T15:09:11+00:00",
+  "last_error": {
+    "checked_at": "2026-10-29T15:02:21+00:00",
+    "note_id": "6ae31e210000000003023abe",
+    "success_flag": true,
+    "api_code": 0,
+    "message": "",
+    "matching_detail": false
+  },
+  "api_run_final_state": "partial",
+  "text_obtained": 550,
+  "note": "全部候选已尝试；3条接口空返回经正常网页补回正文，1条接口及原网页均不可访问。finished不表示取得该缺失正文。"
+}

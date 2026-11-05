@@ -1,0 +1,44 @@
+{
+  "note_id": "6a0d2fe50000000035030a4c",
+  "reading_id": "C-056",
+  "expected": 4,
+  "images": [
+    {
+      "ordinal": 1,
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202610292041/14550305432e5c29835cd302de87df9b/1040g008320ci2phjmi005q3m4tr790a2cuor598!nd_dft_wgth_webp_3",
+      "path": "/home/zcanic/文件/xhs_crawl_try/Spider_XHS/data/lanzhou_coverage/20261029T113955Z/detail_completion/media/6a0d2fe50000000035030a4c/image_01.webp",
+      "reviewed": false,
+      "status": "saved",
+      "bytes": 214002,
+      "content_type": "image/webp"
+    },
+    {
+      "ordinal": 2,
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202610292041/5dd3f96927fde90a487c07be97ea3ac5/1040g008320ci2phjmi1g5q3m4tr790a25li8ln0!nd_dft_wgth_webp_3",
+      "path": "/home/zcanic/文件/xhs_crawl_try/Spider_XHS/data/lanzhou_coverage/20261029T113955Z/detail_completion/media/6a0d2fe50000000035030a4c/image_02.webp",
+      "reviewed": false,
+      "status": "saved",
+      "bytes": 190708,
+      "content_type": "image/webp"
+    },
+    {
+      "ordinal": 3,
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202610292041/0f544e7cf566d1bd614c4411da2888b8/notes_uhdr/1040g3qg320ciasff6i005q3m4tr790a28ha5u20!nd_dft_wlteh_webp_3",
+      "path": "/home/zcanic/文件/xhs_crawl_try/Spider_XHS/data/lanzhou_coverage/20261029T113955Z/detail_completion/media/6a0d2fe50000000035030a4c/image_03.webp",
+      "reviewed": false,
+      "status": "saved",
+      "bytes": 230658,
+      "content_type": "image/webp"
+    },
+    {
+      "ordinal": 4,
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202610292041/716be2b53e0f5206c2f3fcc982820cb1/1040g008320ci2phjmi2g5q3m4tr790a2n6hak8g!nd_dft_wgth_webp_3",
+      "path": "/home/zcanic/文件/xhs_crawl_try/Spider_XHS/data/lanzhou_coverage/20261029T113955Z/detail_completion/media/6a0d2fe50000000035030a4c/image_04.webp",
+      "reviewed": false,
+      "status": "saved",
+      "bytes": 259434,
+      "content_type": "image/webp"
+    }
+  ],
+  "updated_at": "2026-10-29T13:56:11.132996+00:00"
+}

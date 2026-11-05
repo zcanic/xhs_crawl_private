@@ -1,0 +1,18 @@
+{
+  "candidate_ids": 551,
+  "saved_texts": 550,
+  "individually_read_and_annotated": 550,
+  "annotation_id_set_equals_saved_text_set": true,
+  "missing_id": "6adf75c70000000002008323",
+  "evidence_quotes_match": true,
+  "all_full_text_files_present": true,
+  "database_quick_check": "ok",
+  "jobs": {
+    "browser_text": 3,
+    "failed": 1,
+    "success": 547
+  },
+  "html_articles": 550,
+  "media_completed_posts": 17,
+  "media_pending_posts": 533
+}

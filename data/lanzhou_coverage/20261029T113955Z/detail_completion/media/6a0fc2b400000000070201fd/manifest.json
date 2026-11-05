@@ -1,0 +1,35 @@
+{
+  "note_id": "6a0fc2b400000000070201fd",
+  "reading_id": "C-068",
+  "expected": 3,
+  "images": [
+    {
+      "ordinal": 1,
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202610292052/5860fbb2e246e706e849e59f364e8805/1040g008320eib5us5s0g5og2ia9k0gt3ckklr08!nd_dft_wgth_webp_3",
+      "path": "/home/zcanic/文件/xhs_crawl_try/Spider_XHS/data/lanzhou_coverage/20261029T113955Z/detail_completion/media/6a0fc2b400000000070201fd/image_01.webp",
+      "reviewed": false,
+      "status": "saved",
+      "bytes": 254220,
+      "content_type": "image/webp"
+    },
+    {
+      "ordinal": 2,
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202610292052/d2bd0591e90e0c99ce191800df34ceb1/1040g008320eib5us5s105og2ia9k0gt3ej2d16g!nd_dft_wgth_webp_3",
+      "path": "/home/zcanic/文件/xhs_crawl_try/Spider_XHS/data/lanzhou_coverage/20261029T113955Z/detail_completion/media/6a0fc2b400000000070201fd/image_02.webp",
+      "reviewed": false,
+      "status": "saved",
+      "bytes": 127354,
+      "content_type": "image/webp"
+    },
+    {
+      "ordinal": 3,
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202610292052/d29f2b12a2b18eed75c59c457339984b/1040g008320eib5us5s1g5og2ia9k0gt3hcndlp8!nd_dft_wlteh_webp_3",
+      "path": "/home/zcanic/文件/xhs_crawl_try/Spider_XHS/data/lanzhou_coverage/20261029T113955Z/detail_completion/media/6a0fc2b400000000070201fd/image_03.webp",
+      "reviewed": false,
+      "status": "saved",
+      "bytes": 82774,
+      "content_type": "image/webp"
+    }
+  ],
+  "updated_at": "2026-10-29T13:59:18.883944+00:00"
+}

@@ -1,0 +1,25 @@
+[
+ {
+  "note_id":"67c972d3000000002903fa31","reading_id":"C-001","scope_relevance":"目标赛事相关","event_year_evidence":"图片9、18明确2025兰州马拉松，5月25日",
+  "final_level":"L2","all_returned_text_read":true,"expected_images":18,"reviewed_image_ordinals":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],"video_review":"not_applicable","comments_review":"not_reviewed",
+  "evidence":[{"source":"image_16","quote":"你可以去甘肃省博物馆","observation":"读图见博物馆、中山桥游览建议及桥上黄河景观"},{"source":"image_17","quote":"其实兰州马拉松，更是一次关于西北之旅的起点","observation":"读图见白塔山、索道羊皮筏、牛肉面夜市及河西走廊延伸旅游"}],
+  "image_notes":["1：三月33场赛事报名封面","2：2025三月日历，3月6日兰马开报","3：同周多个赛事开报日历","4：三月后段赛事日历","5：多地赛事地点及报名状态清单","6：津南等赛事地点状态清单","7：贵安等赛事地点状态清单","8：北京NB10K等赛事清单","9：2025兰马报名文章与城市夜景","10：兰州全景、赛事热情与坚持变动引言","11：无成绩直通及全民参与，附中山桥周边赛事图","12：海拔与赛事体验公平、观众领嗨画面","13：无锡武汉及兰州报名人数对比","14：退出退费候补机制及黄河城市俯瞰","15：跑者互动、黄河船只及候补评论","16：AI问答文字、甘博中山桥游览建议","17：白塔山及黄河活动、地方饮食、河西走廊旅游","18：报名号召、差旅成本及2025赛事品牌图"],
+  "reason":"逐张读完18图后发现正文未体现的大量旅游内容，原正文L0升级为L2；取最高层。前半多赛事报名，但后半明确主兰马与城市及西北游览绑定。",
+  "confidence":"高","research_note":"推荐和宣传，非作者已经完成所有游览；报名政策和统计是原帖陈述未独立验证。","assessor":"Codex逐条阅读全文并逐张看图，未经独立双人复核"
+ },
+ {
+  "note_id":"67cc2a5d000000000b0171f0","reading_id":"C-002","scope_relevance":"目标赛事相关","event_year_evidence":"网页发布日期2025-03-08，正文当届报名和去年参考",
+  "final_level":"L2","all_returned_text_read":true,"expected_images":1,"reviewed_image_ordinals":[1],"video_review":"not_applicable","comments_review":"partial_visible_only",
+  "evidence":[{"source":"body","quote":"周围商圈多，吃饭啥的也比较方便","observation":"正文把参赛住宿与具体地铁站、商圈及吃饭便利相连；网页全文与保存内容相符"},{"source":"image_01","quote":"兰州马拉松应该住哪里呢？","observation":"唯一图片为纯文字问题封面，没有额外景观或消费证据"}],
+  "image_notes":["1：绿色底蓝字提问封面"],"reason":"按原方案吃住行定义，具体赛地住宿交通选择与赛事叙事绑定，保留L2；另标参赛事务，不能推断休闲游玩意图。",
+  "confidence":"高","research_note":"作者为本地跑友建议，不是外来参赛者亲历。只读到页面已加载评论，82条总数未全部展开，评论意图数仍未填。","assessor":"Codex阅读全文并核验唯一图片，未经独立双人复核"
+ },
+ {
+  "note_id":"67ecf78b000000000703630a","reading_id":"C-003","scope_relevance":"目标赛事相关","event_year_evidence":"图片1—9明确2025兰州马拉松及5月25日",
+  "final_level":"L2","all_returned_text_read":true,"expected_images":9,"reviewed_image_ordinals":[1,2,3,4,5,6,7,8,9],"video_review":"not_applicable","comments_review":"not_reviewed",
+  "evidence":[{"source":"image_06","quote":"甘肃省博物馆","observation":"博物馆与赛事联名纹身贴，绿马及我爱兰州文字"},{"source":"image_07","quote":"联名文创 -马胜利-","observation":"地方博物馆绿马穿赛事服的玩偶挂件"},{"source":"image_09","quote":"取景框集章册","observation":"读者与赛事联名明信片和集章册"}],
+  "image_notes":["1：水车、白塔铁桥浮雕完赛奖牌正反面","2：健康跑家庭跑纪念徽章水车造型","3：全半马参赛背心","4：PB短袖含城市地标图案","5：健康家庭跑亲子参赛服","6：省博联名绿马我爱兰州纹身贴","7：省博联名马胜利玩偶挂件","8：甘肃简牍博物馆联名减减肚肚文创","9：读者联名生日纪念明信片与集章册"],
+  "reason":"正文设计解释与全部图片相互印证，明确把地方文化符号、博物馆文创及城市地标融入赛事消费体验，保留文化符号型L2。",
+  "confidence":"高","research_note":"文创及设计展示，不能当作者实际参观过博物馆；合作关系和实物效果仅为帖中呈现。","assessor":"Codex阅读全文并逐张读完9图，未经独立双人复核"
+ }
+]

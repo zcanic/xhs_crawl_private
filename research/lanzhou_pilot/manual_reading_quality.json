@@ -1,0 +1,27 @@
+{
+  "6a1787280000000035039955": {
+    "source_body_completeness": "matches_visible_page_ending_incomplete",
+    "body_read_complete": true,
+    "reason": "北京时间21:50通过网页搜索打开同一帖并完整读取可见正文，网页也停在‘过终点后’，与接口结尾一致，未发现网页可读续文。因此不再断言接口截断，可能原帖未写完；App是否另有内容未知。"
+  },
+  "6a16bb5d00000000060313f2": {
+    "source_body_completeness": "matches_visible_page_internal_incomplete_phrase",
+    "body_read_complete": true,
+    "reason": "北京时间22:17通过正常网页搜索打开同一帖并完整读取正文，网页第五段也以‘还有一张放哈’直接衔接第六段，与保存内容一致；网页未显示该短句的更多内容，不再将其归因于接口漏字。App中是否另有内容未知。"
+  },
+  "6ae31c12000000001a02506f": {
+    "source_body_completeness": "browser_visible_dom_captured",
+    "body_read_complete": true,
+    "reason": "接口两次返回code=0但无匹配详情；用户手动完成网页滑块验证后，正常原链接已显示目标帖，通过可见正文SPAN.note-text全文保存并逐读。只补回网页文字，不伪造接口详情、发布时间、视频或图片。"
+  },
+  "6ae31cab000000001a020497": {
+    "source_body_completeness": "browser_visible_dom_captured",
+    "body_read_complete": true,
+    "reason": "接口两次code=0但无匹配详情，正常网页可见完整正文已读取并保存；保留网页来源，不伪造接口详情或媒体信息。"
+  },
+  "6ae31e210000000003023abe": {
+    "source_body_completeness": "browser_visible_dom_captured",
+    "body_read_complete": true,
+    "reason": "接口两次code=0但无匹配详情，正常网页可见完整正文已读取并保存；保留网页来源，不伪造接口详情或媒体信息。"
+  }
+}

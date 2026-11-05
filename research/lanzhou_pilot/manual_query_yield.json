@@ -1,0 +1,973 @@
+{
+  "scope": "冻结551条候选的单人逐读正文判断；包含多年份、关联系列活动；非平台召回率、非正式比例样本",
+  "annotation_complete": false,
+  "all_available_text_annotated": true,
+  "all_candidates_attempted": true,
+  "union": {
+    "candidates": 551,
+    "read": 550,
+    "unread": 1,
+    "unavailable_details": 1,
+    "pending_details": 0,
+    "target": 278,
+    "incidental": 38,
+    "target_L2": 93,
+    "target_share_of_read": 0.505455,
+    "relations": {
+      "其他具体赛事": 157,
+      "目标赛事相关": 278,
+      "顺带提及目标赛事": 38,
+      "城市旅游无赛事关联": 12,
+      "泛马拉松议题": 33,
+      "非赛事内容": 11,
+      "信息不足": 17,
+      "赛事身份存疑": 4
+    }
+  },
+  "strategies": [
+    {
+      "strategy": "baseline",
+      "search_calls": 8,
+      "candidates": 132,
+      "read": 132,
+      "unread": 0,
+      "unavailable_details": 0,
+      "pending_details": 0,
+      "target": 46,
+      "incidental": 16,
+      "target_L2": 12,
+      "target_share_of_read": 0.348485,
+      "relations": {
+        "非赛事内容": 10,
+        "其他具体赛事": 44,
+        "目标赛事相关": 46,
+        "城市旅游无赛事关联": 3,
+        "顺带提及目标赛事": 16,
+        "泛马拉松议题": 6,
+        "信息不足": 6,
+        "赛事身份存疑": 1
+      },
+      "outside_baseline": {
+        "candidates": 0,
+        "read": 0,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 0,
+        "incidental": 0,
+        "target_L2": 0,
+        "target_share_of_read": null,
+        "relations": {}
+      },
+      "exclusive_to_strategy": {
+        "candidates": 73,
+        "read": 73,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 24,
+        "incidental": 8,
+        "target_L2": 3,
+        "target_share_of_read": 0.328767,
+        "relations": {
+          "非赛事内容": 10,
+          "其他具体赛事": 23,
+          "泛马拉松议题": 3,
+          "目标赛事相关": 24,
+          "信息不足": 3,
+          "顺带提及目标赛事": 8,
+          "赛事身份存疑": 1,
+          "城市旅游无赛事关联": 1
+        }
+      }
+    },
+    {
+      "strategy": "crossed",
+      "search_calls": 16,
+      "candidates": 202,
+      "read": 202,
+      "unread": 0,
+      "unavailable_details": 0,
+      "pending_details": 0,
+      "target": 115,
+      "incidental": 11,
+      "target_L2": 53,
+      "target_share_of_read": 0.569307,
+      "relations": {
+        "其他具体赛事": 53,
+        "目标赛事相关": 115,
+        "城市旅游无赛事关联": 7,
+        "顺带提及目标赛事": 11,
+        "泛马拉松议题": 13,
+        "信息不足": 3
+      },
+      "outside_baseline": {
+        "candidates": 170,
+        "read": 170,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 100,
+        "incidental": 7,
+        "target_L2": 44,
+        "target_share_of_read": 0.588235,
+        "relations": {
+          "其他具体赛事": 44,
+          "目标赛事相关": 100,
+          "城市旅游无赛事关联": 6,
+          "顺带提及目标赛事": 7,
+          "泛马拉松议题": 11,
+          "信息不足": 2
+        }
+      },
+      "exclusive_to_strategy": {
+        "candidates": 132,
+        "read": 132,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 77,
+        "incidental": 2,
+        "target_L2": 35,
+        "target_share_of_read": 0.583333,
+        "relations": {
+          "目标赛事相关": 77,
+          "其他具体赛事": 38,
+          "城市旅游无赛事关联": 6,
+          "顺带提及目标赛事": 2,
+          "泛马拉松议题": 8,
+          "信息不足": 1
+        }
+      }
+    },
+    {
+      "strategy": "bfs",
+      "search_calls": 32,
+      "candidates": 341,
+      "read": 340,
+      "unread": 1,
+      "unavailable_details": 1,
+      "pending_details": 0,
+      "target": 176,
+      "incidental": 26,
+      "target_L2": 55,
+      "target_share_of_read": 0.517647,
+      "relations": {
+        "其他具体赛事": 94,
+        "目标赛事相关": 176,
+        "顺带提及目标赛事": 26,
+        "城市旅游无赛事关联": 5,
+        "泛马拉松议题": 22,
+        "信息不足": 13,
+        "非赛事内容": 1,
+        "赛事身份存疑": 3
+      },
+      "outside_baseline": {
+        "candidates": 287,
+        "read": 286,
+        "unread": 1,
+        "unavailable_details": 1,
+        "pending_details": 0,
+        "target": 155,
+        "incidental": 20,
+        "target_L2": 46,
+        "target_share_of_read": 0.541958,
+        "relations": {
+          "其他具体赛事": 75,
+          "目标赛事相关": 155,
+          "信息不足": 10,
+          "顺带提及目标赛事": 20,
+          "城市旅游无赛事关联": 3,
+          "泛马拉松议题": 19,
+          "赛事身份存疑": 3,
+          "非赛事内容": 1
+        }
+      },
+      "exclusive_to_strategy": {
+        "candidates": 249,
+        "read": 248,
+        "unread": 1,
+        "unavailable_details": 1,
+        "pending_details": 0,
+        "target": 132,
+        "incidental": 15,
+        "target_L2": 37,
+        "target_share_of_read": 0.532258,
+        "relations": {
+          "目标赛事相关": 132,
+          "其他具体赛事": 69,
+          "信息不足": 9,
+          "顺带提及目标赛事": 15,
+          "城市旅游无赛事关联": 3,
+          "泛马拉松议题": 16,
+          "赛事身份存疑": 3,
+          "非赛事内容": 1
+        }
+      }
+    }
+  ],
+  "queries": [
+    {
+      "query": "兰州马拉松",
+      "strategy": "baseline",
+      "depth": 0,
+      "search_calls": 4,
+      "candidates": 73,
+      "read": 73,
+      "unread": 0,
+      "unavailable_details": 0,
+      "pending_details": 0,
+      "target": 24,
+      "incidental": 5,
+      "target_L2": 8,
+      "target_share_of_read": 0.328767,
+      "relations": {
+        "目标赛事相关": 24,
+        "其他具体赛事": 30,
+        "泛马拉松议题": 6,
+        "顺带提及目标赛事": 5,
+        "城市旅游无赛事关联": 3,
+        "信息不足": 4,
+        "赛事身份存疑": 1
+      },
+      "outside_baseline": {
+        "candidates": 0,
+        "read": 0,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 0,
+        "incidental": 0,
+        "target_L2": 0,
+        "target_share_of_read": null,
+        "relations": {}
+      }
+    },
+    {
+      "query": "兰马",
+      "strategy": "baseline",
+      "depth": 0,
+      "search_calls": 4,
+      "candidates": 73,
+      "read": 73,
+      "unread": 0,
+      "unavailable_details": 0,
+      "pending_details": 0,
+      "target": 32,
+      "incidental": 11,
+      "target_L2": 9,
+      "target_share_of_read": 0.438356,
+      "relations": {
+        "非赛事内容": 10,
+        "其他具体赛事": 17,
+        "目标赛事相关": 32,
+        "信息不足": 2,
+        "泛马拉松议题": 1,
+        "顺带提及目标赛事": 11
+      },
+      "outside_baseline": {
+        "candidates": 0,
+        "read": 0,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 0,
+        "incidental": 0,
+        "target_L2": 0,
+        "target_share_of_read": null,
+        "relations": {}
+      }
+    },
+    {
+      "query": "#兰州马拉松 #赛记",
+      "strategy": "crossed",
+      "depth": 0,
+      "search_calls": 4,
+      "candidates": 69,
+      "read": 69,
+      "unread": 0,
+      "unavailable_details": 0,
+      "pending_details": 0,
+      "target": 37,
+      "incidental": 10,
+      "target_L2": 16,
+      "target_share_of_read": 0.536232,
+      "relations": {
+        "目标赛事相关": 37,
+        "信息不足": 2,
+        "其他具体赛事": 16,
+        "泛马拉松议题": 3,
+        "顺带提及目标赛事": 10,
+        "城市旅游无赛事关联": 1
+      },
+      "outside_baseline": {
+        "candidates": 50,
+        "read": 50,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 30,
+        "incidental": 7,
+        "target_L2": 10,
+        "target_share_of_read": 0.6,
+        "relations": {
+          "目标赛事相关": 30,
+          "信息不足": 1,
+          "其他具体赛事": 10,
+          "顺带提及目标赛事": 7,
+          "泛马拉松议题": 2
+        }
+      },
+      "literal_tag_conjunction": {
+        "required_exact_tags": [
+          "兰州马拉松",
+          "赛记"
+        ],
+        "details_available": 69,
+        "nonempty_tag_lists": 56,
+        "empty_or_missing_tag_lists": 13,
+        "all_tags_present": 0,
+        "not_all_tags_present_in_nonempty_lists": 56,
+        "manually_target_related": 0,
+        "meaning": "仅核对已采集标签字段严格共现，不自动赋予语义相关性标签"
+      }
+    },
+    {
+      "query": "#兰州马拉松 #攻略",
+      "strategy": "crossed",
+      "depth": 0,
+      "search_calls": 4,
+      "candidates": 63,
+      "read": 63,
+      "unread": 0,
+      "unavailable_details": 0,
+      "pending_details": 0,
+      "target": 41,
+      "incidental": 2,
+      "target_L2": 22,
+      "target_share_of_read": 0.650794,
+      "relations": {
+        "其他具体赛事": 9,
+        "目标赛事相关": 41,
+        "信息不足": 2,
+        "泛马拉松议题": 7,
+        "顺带提及目标赛事": 2,
+        "城市旅游无赛事关联": 2
+      },
+      "outside_baseline": {
+        "candidates": 43,
+        "read": 43,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 30,
+        "incidental": 1,
+        "target_L2": 14,
+        "target_share_of_read": 0.697674,
+        "relations": {
+          "其他具体赛事": 5,
+          "目标赛事相关": 30,
+          "信息不足": 1,
+          "泛马拉松议题": 5,
+          "城市旅游无赛事关联": 1,
+          "顺带提及目标赛事": 1
+        }
+      },
+      "literal_tag_conjunction": {
+        "required_exact_tags": [
+          "兰州马拉松",
+          "攻略"
+        ],
+        "details_available": 63,
+        "nonempty_tag_lists": 58,
+        "empty_or_missing_tag_lists": 5,
+        "all_tags_present": 0,
+        "not_all_tags_present_in_nonempty_lists": 58,
+        "manually_target_related": 0,
+        "meaning": "仅核对已采集标签字段严格共现，不自动赋予语义相关性标签"
+      }
+    },
+    {
+      "query": "#兰马 #赛记",
+      "strategy": "crossed",
+      "depth": 0,
+      "search_calls": 4,
+      "candidates": 73,
+      "read": 73,
+      "unread": 0,
+      "unavailable_details": 0,
+      "pending_details": 0,
+      "target": 37,
+      "incidental": 1,
+      "target_L2": 14,
+      "target_share_of_read": 0.506849,
+      "relations": {
+        "其他具体赛事": 31,
+        "目标赛事相关": 37,
+        "泛马拉松议题": 4,
+        "顺带提及目标赛事": 1
+      },
+      "outside_baseline": {
+        "candidates": 67,
+        "read": 67,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 35,
+        "incidental": 0,
+        "target_L2": 13,
+        "target_share_of_read": 0.522388,
+        "relations": {
+          "其他具体赛事": 28,
+          "目标赛事相关": 35,
+          "泛马拉松议题": 4
+        }
+      },
+      "literal_tag_conjunction": {
+        "required_exact_tags": [
+          "兰马",
+          "赛记"
+        ],
+        "details_available": 73,
+        "nonempty_tag_lists": 58,
+        "empty_or_missing_tag_lists": 15,
+        "all_tags_present": 0,
+        "not_all_tags_present_in_nonempty_lists": 58,
+        "manually_target_related": 0,
+        "meaning": "仅核对已采集标签字段严格共现，不自动赋予语义相关性标签"
+      }
+    },
+    {
+      "query": "#兰马 #攻略",
+      "strategy": "crossed",
+      "depth": 0,
+      "search_calls": 4,
+      "candidates": 70,
+      "read": 70,
+      "unread": 0,
+      "unavailable_details": 0,
+      "pending_details": 0,
+      "target": 52,
+      "incidental": 0,
+      "target_L2": 26,
+      "target_share_of_read": 0.742857,
+      "relations": {
+        "目标赛事相关": 52,
+        "其他具体赛事": 8,
+        "信息不足": 1,
+        "城市旅游无赛事关联": 5,
+        "泛马拉松议题": 4
+      },
+      "outside_baseline": {
+        "candidates": 58,
+        "read": 58,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 44,
+        "incidental": 0,
+        "target_L2": 21,
+        "target_share_of_read": 0.758621,
+        "relations": {
+          "目标赛事相关": 44,
+          "其他具体赛事": 4,
+          "信息不足": 1,
+          "城市旅游无赛事关联": 5,
+          "泛马拉松议题": 4
+        }
+      },
+      "literal_tag_conjunction": {
+        "required_exact_tags": [
+          "兰马",
+          "攻略"
+        ],
+        "details_available": 70,
+        "nonempty_tag_lists": 65,
+        "empty_or_missing_tag_lists": 5,
+        "all_tags_present": 0,
+        "not_all_tags_present_in_nonempty_lists": 65,
+        "manually_target_related": 0,
+        "meaning": "仅核对已采集标签字段严格共现，不自动赋予语义相关性标签"
+      }
+    },
+    {
+      "query": "#兰州马拉松 #马拉松比赛",
+      "strategy": "bfs",
+      "depth": 1,
+      "search_calls": 4,
+      "candidates": 62,
+      "read": 62,
+      "unread": 0,
+      "unavailable_details": 0,
+      "pending_details": 0,
+      "target": 21,
+      "incidental": 7,
+      "target_L2": 9,
+      "target_share_of_read": 0.33871,
+      "relations": {
+        "其他具体赛事": 23,
+        "目标赛事相关": 21,
+        "顺带提及目标赛事": 7,
+        "泛马拉松议题": 4,
+        "信息不足": 3,
+        "非赛事内容": 1,
+        "赛事身份存疑": 2,
+        "城市旅游无赛事关联": 1
+      },
+      "outside_baseline": {
+        "candidates": 23,
+        "read": 23,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 5,
+        "incidental": 5,
+        "target_L2": 2,
+        "target_share_of_read": 0.217391,
+        "relations": {
+          "其他具体赛事": 8,
+          "目标赛事相关": 5,
+          "泛马拉松议题": 2,
+          "顺带提及目标赛事": 5,
+          "非赛事内容": 1,
+          "赛事身份存疑": 2
+        }
+      },
+      "literal_tag_conjunction": {
+        "required_exact_tags": [
+          "兰州马拉松",
+          "马拉松比赛"
+        ],
+        "details_available": 62,
+        "nonempty_tag_lists": 58,
+        "empty_or_missing_tag_lists": 4,
+        "all_tags_present": 5,
+        "not_all_tags_present_in_nonempty_lists": 53,
+        "manually_target_related": 3,
+        "meaning": "仅核对已采集标签字段严格共现，不自动赋予语义相关性标签"
+      }
+    },
+    {
+      "query": "#兰州马拉松 #2026兰州马拉松",
+      "strategy": "bfs",
+      "depth": 1,
+      "search_calls": 4,
+      "candidates": 68,
+      "read": 68,
+      "unread": 0,
+      "unavailable_details": 0,
+      "pending_details": 0,
+      "target": 23,
+      "incidental": 7,
+      "target_L2": 5,
+      "target_share_of_read": 0.338235,
+      "relations": {
+        "其他具体赛事": 27,
+        "目标赛事相关": 23,
+        "顺带提及目标赛事": 7,
+        "泛马拉松议题": 4,
+        "信息不足": 3,
+        "非赛事内容": 1,
+        "赛事身份存疑": 2,
+        "城市旅游无赛事关联": 1
+      },
+      "outside_baseline": {
+        "candidates": 38,
+        "read": 38,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 14,
+        "incidental": 4,
+        "target_L2": 1,
+        "target_share_of_read": 0.368421,
+        "relations": {
+          "其他具体赛事": 14,
+          "目标赛事相关": 14,
+          "泛马拉松议题": 2,
+          "顺带提及目标赛事": 4,
+          "信息不足": 1,
+          "非赛事内容": 1,
+          "赛事身份存疑": 2
+        }
+      },
+      "literal_tag_conjunction": {
+        "required_exact_tags": [
+          "兰州马拉松",
+          "2026兰州马拉松"
+        ],
+        "details_available": 68,
+        "nonempty_tag_lists": 62,
+        "empty_or_missing_tag_lists": 6,
+        "all_tags_present": 3,
+        "not_all_tags_present_in_nonempty_lists": 59,
+        "manually_target_related": 3,
+        "meaning": "仅核对已采集标签字段严格共现，不自动赋予语义相关性标签"
+      }
+    },
+    {
+      "query": "#兰州马拉松 #2026兰马",
+      "strategy": "bfs",
+      "depth": 1,
+      "search_calls": 4,
+      "candidates": 70,
+      "read": 70,
+      "unread": 0,
+      "unavailable_details": 0,
+      "pending_details": 0,
+      "target": 40,
+      "incidental": 5,
+      "target_L2": 9,
+      "target_share_of_read": 0.571429,
+      "relations": {
+        "目标赛事相关": 40,
+        "其他具体赛事": 16,
+        "顺带提及目标赛事": 5,
+        "信息不足": 4,
+        "泛马拉松议题": 3,
+        "非赛事内容": 1,
+        "赛事身份存疑": 1
+      },
+      "outside_baseline": {
+        "candidates": 45,
+        "read": 45,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 30,
+        "incidental": 3,
+        "target_L2": 3,
+        "target_share_of_read": 0.666667,
+        "relations": {
+          "目标赛事相关": 30,
+          "其他具体赛事": 7,
+          "顺带提及目标赛事": 3,
+          "非赛事内容": 1,
+          "泛马拉松议题": 1,
+          "赛事身份存疑": 1,
+          "信息不足": 2
+        }
+      },
+      "literal_tag_conjunction": {
+        "required_exact_tags": [
+          "兰州马拉松",
+          "2026兰马"
+        ],
+        "details_available": 70,
+        "nonempty_tag_lists": 62,
+        "empty_or_missing_tag_lists": 8,
+        "all_tags_present": 2,
+        "not_all_tags_present_in_nonempty_lists": 60,
+        "manually_target_related": 2,
+        "meaning": "仅核对已采集标签字段严格共现，不自动赋予语义相关性标签"
+      }
+    },
+    {
+      "query": "#兰州马拉松 #跑了就友",
+      "strategy": "bfs",
+      "depth": 1,
+      "search_calls": 4,
+      "candidates": 70,
+      "read": 70,
+      "unread": 0,
+      "unavailable_details": 0,
+      "pending_details": 0,
+      "target": 33,
+      "incidental": 9,
+      "target_L2": 16,
+      "target_share_of_read": 0.471429,
+      "relations": {
+        "目标赛事相关": 33,
+        "泛马拉松议题": 7,
+        "顺带提及目标赛事": 9,
+        "其他具体赛事": 10,
+        "信息不足": 5,
+        "城市旅游无赛事关联": 5,
+        "赛事身份存疑": 1
+      },
+      "outside_baseline": {
+        "candidates": 53,
+        "read": 53,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 27,
+        "incidental": 6,
+        "target_L2": 12,
+        "target_share_of_read": 0.509434,
+        "relations": {
+          "目标赛事相关": 27,
+          "泛马拉松议题": 6,
+          "其他具体赛事": 6,
+          "信息不足": 4,
+          "顺带提及目标赛事": 6,
+          "城市旅游无赛事关联": 3,
+          "赛事身份存疑": 1
+        }
+      },
+      "literal_tag_conjunction": {
+        "required_exact_tags": [
+          "兰州马拉松",
+          "跑了就友"
+        ],
+        "details_available": 70,
+        "nonempty_tag_lists": 67,
+        "empty_or_missing_tag_lists": 3,
+        "all_tags_present": 25,
+        "not_all_tags_present_in_nonempty_lists": 42,
+        "manually_target_related": 21,
+        "meaning": "仅核对已采集标签字段严格共现，不自动赋予语义相关性标签"
+      }
+    },
+    {
+      "query": "#兰州马拉松 #开跑就是马拉松",
+      "strategy": "bfs",
+      "depth": 1,
+      "search_calls": 4,
+      "candidates": 66,
+      "read": 66,
+      "unread": 0,
+      "unavailable_details": 0,
+      "pending_details": 0,
+      "target": 34,
+      "incidental": 6,
+      "target_L2": 16,
+      "target_share_of_read": 0.515152,
+      "relations": {
+        "其他具体赛事": 19,
+        "目标赛事相关": 34,
+        "顺带提及目标赛事": 6,
+        "泛马拉松议题": 2,
+        "信息不足": 3,
+        "赛事身份存疑": 1,
+        "城市旅游无赛事关联": 1
+      },
+      "outside_baseline": {
+        "candidates": 37,
+        "read": 37,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 22,
+        "incidental": 3,
+        "target_L2": 9,
+        "target_share_of_read": 0.594595,
+        "relations": {
+          "其他具体赛事": 11,
+          "顺带提及目标赛事": 3,
+          "目标赛事相关": 22,
+          "赛事身份存疑": 1
+        }
+      },
+      "literal_tag_conjunction": {
+        "required_exact_tags": [
+          "兰州马拉松",
+          "开跑就是马拉松"
+        ],
+        "details_available": 66,
+        "nonempty_tag_lists": 64,
+        "empty_or_missing_tag_lists": 2,
+        "all_tags_present": 2,
+        "not_all_tags_present_in_nonempty_lists": 62,
+        "manually_target_related": 2,
+        "meaning": "仅核对已采集标签字段严格共现，不自动赋予语义相关性标签"
+      }
+    },
+    {
+      "query": "#兰州马拉松 #征服亚高原",
+      "strategy": "bfs",
+      "depth": 1,
+      "search_calls": 4,
+      "candidates": 72,
+      "read": 72,
+      "unread": 0,
+      "unavailable_details": 0,
+      "pending_details": 0,
+      "target": 48,
+      "incidental": 7,
+      "target_L2": 18,
+      "target_share_of_read": 0.666667,
+      "relations": {
+        "目标赛事相关": 48,
+        "其他具体赛事": 13,
+        "顺带提及目标赛事": 7,
+        "泛马拉松议题": 2,
+        "城市旅游无赛事关联": 1,
+        "信息不足": 1
+      },
+      "outside_baseline": {
+        "candidates": 58,
+        "read": 58,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 42,
+        "incidental": 4,
+        "target_L2": 13,
+        "target_share_of_read": 0.724138,
+        "relations": {
+          "目标赛事相关": 42,
+          "其他具体赛事": 11,
+          "顺带提及目标赛事": 4,
+          "泛马拉松议题": 1
+        }
+      },
+      "literal_tag_conjunction": {
+        "required_exact_tags": [
+          "兰州马拉松",
+          "征服亚高原"
+        ],
+        "details_available": 72,
+        "nonempty_tag_lists": 63,
+        "empty_or_missing_tag_lists": 9,
+        "all_tags_present": 6,
+        "not_all_tags_present_in_nonempty_lists": 57,
+        "manually_target_related": 6,
+        "meaning": "仅核对已采集标签字段严格共现，不自动赋予语义相关性标签"
+      }
+    },
+    {
+      "query": "#兰州马拉松 #跑马人的工具箱",
+      "strategy": "bfs",
+      "depth": 2,
+      "search_calls": 4,
+      "candidates": 67,
+      "read": 66,
+      "unread": 1,
+      "unavailable_details": 1,
+      "pending_details": 0,
+      "target": 18,
+      "incidental": 7,
+      "target_L2": 6,
+      "target_share_of_read": 0.272727,
+      "relations": {
+        "泛马拉松议题": 8,
+        "其他具体赛事": 32,
+        "信息不足": 1,
+        "顺带提及目标赛事": 7,
+        "目标赛事相关": 18
+      },
+      "outside_baseline": {
+        "candidates": 62,
+        "read": 61,
+        "unread": 1,
+        "unavailable_details": 1,
+        "pending_details": 0,
+        "target": 15,
+        "incidental": 5,
+        "target_L2": 3,
+        "target_share_of_read": 0.245902,
+        "relations": {
+          "泛马拉松议题": 8,
+          "其他具体赛事": 32,
+          "信息不足": 1,
+          "目标赛事相关": 15,
+          "顺带提及目标赛事": 5
+        }
+      },
+      "literal_tag_conjunction": {
+        "required_exact_tags": [
+          "兰州马拉松",
+          "跑马人的工具箱"
+        ],
+        "details_available": 66,
+        "nonempty_tag_lists": 60,
+        "empty_or_missing_tag_lists": 6,
+        "all_tags_present": 4,
+        "not_all_tags_present_in_nonempty_lists": 56,
+        "manually_target_related": 4,
+        "meaning": "仅核对已采集标签字段严格共现，不自动赋予语义相关性标签"
+      }
+    },
+    {
+      "query": "#兰州马拉松 #跑马人的情报站",
+      "strategy": "bfs",
+      "depth": 2,
+      "search_calls": 4,
+      "candidates": 70,
+      "read": 70,
+      "unread": 0,
+      "unavailable_details": 0,
+      "pending_details": 0,
+      "target": 40,
+      "incidental": 7,
+      "target_L2": 18,
+      "target_share_of_read": 0.571429,
+      "relations": {
+        "其他具体赛事": 15,
+        "目标赛事相关": 40,
+        "顺带提及目标赛事": 7,
+        "信息不足": 3,
+        "泛马拉松议题": 5
+      },
+      "outside_baseline": {
+        "candidates": 55,
+        "read": 55,
+        "unread": 0,
+        "unavailable_details": 0,
+        "pending_details": 0,
+        "target": 33,
+        "incidental": 5,
+        "target_L2": 13,
+        "target_share_of_read": 0.6,
+        "relations": {
+          "其他具体赛事": 9,
+          "目标赛事相关": 33,
+          "信息不足": 3,
+          "顺带提及目标赛事": 5,
+          "泛马拉松议题": 5
+        }
+      },
+      "literal_tag_conjunction": {
+        "required_exact_tags": [
+          "兰州马拉松",
+          "跑马人的情报站"
+        ],
+        "details_available": 70,
+        "nonempty_tag_lists": 65,
+        "empty_or_missing_tag_lists": 5,
+        "all_tags_present": 21,
+        "not_all_tags_present_in_nonempty_lists": 44,
+        "manually_target_related": 21,
+        "meaning": "仅核对已采集标签字段严格共现，不自动赋予语义相关性标签"
+      }
+    }
+  ],
+  "overlaps": [
+    {
+      "a": "baseline",
+      "b": "crossed",
+      "raw_intersection": 32,
+      "raw_jaccard": 0.10596026490066225,
+      "read_target_intersection": 15,
+      "read_target_union": 146,
+      "read_target_jaccard": 0.10273972602739725
+    },
+    {
+      "a": "baseline",
+      "b": "bfs",
+      "raw_intersection": 54,
+      "raw_jaccard": 0.1288782816229117,
+      "read_target_intersection": 21,
+      "read_target_union": 201,
+      "read_target_jaccard": 0.1044776119402985
+    },
+    {
+      "a": "crossed",
+      "b": "bfs",
+      "raw_intersection": 65,
+      "raw_jaccard": 0.13598326359832635,
+      "read_target_intersection": 37,
+      "read_target_union": 254,
+      "read_target_jaccard": 0.14566929133858267
+    }
+  ],
+  "limitations": [
+    "搜索接口含多个#词不等于平台严格执行标签逻辑AND，需逐读检验",
+    "基线/交叉/BFS请求量分别8/16/32，不能仅凭总新增数量评价效率或因果优劣",
+    "正文无相关证据不代表未读媒体中也无相关信息；媒体另列待核验",
+    "未知标签总体分母，观察池内覆盖份额不可解释为全平台覆盖率",
+    "搜索页均仍有has_more；完成551条详情不等于搜索结果已穷尽",
+    "跨查询重复既受检索排序又受平台召回机制影响，不满足简单独立捕获假设"
+  ]
+}

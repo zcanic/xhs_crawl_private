@@ -1,0 +1,44 @@
+{
+  "note_id": "68106800000000002301d7e1",
+  "reading_id": "C-004",
+  "expected": 4,
+  "images": [
+    {
+      "ordinal": 1,
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202610292040/f63df9da07f3a93f9994f888d9183a8b/notes_pre_post/1040g3k031grmshogjc004a0nqdm12q4js4uccqo!nd_dft_wlteh_webp_3",
+      "path": "/home/zcanic/文件/xhs_crawl_try/Spider_XHS/data/lanzhou_coverage/20261029T113955Z/detail_completion/media/68106800000000002301d7e1/image_01.webp",
+      "reviewed": false,
+      "status": "saved",
+      "bytes": 180486,
+      "content_type": "image/webp"
+    },
+    {
+      "ordinal": 2,
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202610292040/0ede638a20887eab601b63049cb19b33/notes_pre_post/1040g3k031grmshogjc0g4a0nqdm12q4jskkt9p0!nd_dft_wlteh_webp_3",
+      "path": "/home/zcanic/文件/xhs_crawl_try/Spider_XHS/data/lanzhou_coverage/20261029T113955Z/detail_completion/media/68106800000000002301d7e1/image_02.webp",
+      "reviewed": false,
+      "status": "saved",
+      "bytes": 245700,
+      "content_type": "image/webp"
+    },
+    {
+      "ordinal": 3,
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202610292040/54fe54631231db336d8d0efea0e6660e/notes_pre_post/1040g3k031grmshogjc104a0nqdm12q4j85hkdv0!nd_dft_wlteh_webp_3",
+      "path": "/home/zcanic/文件/xhs_crawl_try/Spider_XHS/data/lanzhou_coverage/20261029T113955Z/detail_completion/media/68106800000000002301d7e1/image_03.webp",
+      "reviewed": false,
+      "status": "saved",
+      "bytes": 125602,
+      "content_type": "image/webp"
+    },
+    {
+      "ordinal": 4,
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202610292040/51384018d67ca317aecfadffa18e0a61/notes_pre_post/1040g3k031grmshogjc1g4a0nqdm12q4jpdcr5og!nd_dft_wlteh_webp_3",
+      "path": "/home/zcanic/文件/xhs_crawl_try/Spider_XHS/data/lanzhou_coverage/20261029T113955Z/detail_completion/media/68106800000000002301d7e1/image_04.webp",
+      "reviewed": false,
+      "status": "saved",
+      "bytes": 57394,
+      "content_type": "image/webp"
+    }
+  ],
+  "updated_at": "2026-10-29T13:47:34.512542+00:00"
+}
