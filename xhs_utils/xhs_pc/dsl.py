@@ -127,31 +127,40 @@ class DsFetcher:
             'Referer': 'https://www.xiaohongshu.com/',
             'Accept': '*/*',
         }
-        if http_client is None:
-            from .http import PcHttpClient
-
-            client = PcHttpClient(proxies=proxies)
+        last_error: Optional[Exception] = None
+        for attempt in range(3):
             try:
-                r = client.get(
-                    self._url,
-                    headers=headers,
-                    proxies=proxies,
-                    timeout=8,
-                )
-            finally:
-                client.close()
-        else:
-            r = http_client.get(
-                self._url,
-                headers=headers,
-                proxies=proxies,
-                timeout=8,
-            )
-        r.raise_for_status()
-        m = _GETDSS_RE.search(r.text)
-        if not m:
-            raise ValueError('ds 响应未匹配 getdss() 模式')
-        return m.group(1)
+                if http_client is None:
+                    from .http import PcHttpClient
+
+                    client = PcHttpClient(proxies=proxies)
+                    try:
+                        r = client.get(
+                            self._url,
+                            headers=headers,
+                            proxies=proxies,
+                            timeout=20,
+                        )
+                    finally:
+                        client.close()
+                else:
+                    r = http_client.get(
+                        self._url,
+                        headers=headers,
+                        proxies=proxies,
+                        timeout=20,
+                    )
+                r.raise_for_status()
+                m = _GETDSS_RE.search(r.text)
+                if not m:
+                    raise ValueError('ds 响应未匹配 getdss() 模式')
+                return m.group(1)
+            except Exception as e:  # 冷启动首次连接常超时，重试即可
+                last_error = e
+                if attempt < 2:
+                    time.sleep(1.5 * (attempt + 1))
+        assert last_error is not None
+        raise last_error
 
     def peek(self) -> Optional[str]:
         """不发请求，返回当前缓存值（可能为 None）。"""

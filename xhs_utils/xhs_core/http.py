@@ -7,6 +7,7 @@ transport while keeping ordinary Headers and body bytes explicit.
 
 from __future__ import annotations
 
+import time
 from collections.abc import Mapping
 from typing import Any, Optional
 
@@ -154,18 +155,28 @@ class BrowserHttpClient:
             wire_headers['content-type'] = None
 
         request_proxies = self.proxies if proxies is None else proxies
-        return self.session.request(
-            str(method).upper(),
-            str(url),
-            headers=wire_headers,
-            proxies=request_proxies,
-            impersonate=self.impersonate,
-            default_headers=False,
-            discard_cookies=True,
-            http_version=self.http_version,
-            accept_encoding=self.accept_encoding,
-            **kwargs,
-        )
+        attempts = 3 if str(method).upper() in ('GET', 'HEAD') else 1
+        last_error: Optional[Exception] = None
+        for attempt in range(attempts):
+            try:
+                return self.session.request(
+                    str(method).upper(),
+                    str(url),
+                    headers=wire_headers,
+                    proxies=request_proxies,
+                    impersonate=self.impersonate,
+                    default_headers=False,
+                    discard_cookies=True,
+                    http_version=self.http_version,
+                    accept_encoding=self.accept_encoding,
+                    **kwargs,
+                )
+            except Exception as e:  # 透明代理冷启动首次连接常超时
+                last_error = e
+                if attempt + 1 < attempts:
+                    time.sleep(1.5 * (attempt + 1))
+        assert last_error is not None
+        raise last_error
 
     def get(self, url: str, **kwargs):
         return self.request('GET', url, **kwargs)
